@@ -1,8 +1,13 @@
 import React from "react";
 
+import SearchBar from "./search_bar";
+
 const App = props => {
 	return (
-		<h1>Weather App</h1>
+		<div>
+			<h1>Weather App</h1>
+			<SearchBar />
+		</div>
 	);
 };
 
