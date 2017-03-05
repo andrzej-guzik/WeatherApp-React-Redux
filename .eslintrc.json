@@ -17,10 +17,11 @@
         "react"
     ],
 	"globals": {
-        "React": true,
-		"describe": true,
-		"it": true,
-		"beforeEach": true
+        "React": false,
+		"describe": false,
+		"it": false,
+		"beforeEach": false,
+        "google": false
     },
     "rules": {
         "indent": [
@@ -39,6 +40,7 @@
             "error",
             "always"
         ],
-		"no-unused-vars": [1]
+		"no-unused-vars": 1,
+        "no-console": "off"
     }
 }

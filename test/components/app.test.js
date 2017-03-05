@@ -1,6 +1,7 @@
 import { renderComponent, expect } from "../test_helper";
 import App from "../../src/components/app";
 import SearchBar from "../../src/components/search_bar";
+import WeatherList from "../../src/components/weather_list";
 
 describe("App", () => {
 	let component;
@@ -16,4 +17,8 @@ describe("App", () => {
 	it("show the SearchBar component", () => {
 		expect(component.find(".search-bar")).to.exist;
 	});
+
+	it("show the WeatherList component", () => {
+		expect(component.find(".weather-list")).to.exist;
+	});	
 });

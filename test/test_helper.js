@@ -6,6 +6,7 @@ import TestUtils from "react-addons-test-utils";
 import $ from "jquery";
 import chai, { expect } from "chai";
 import chaiJquery from "chai-jquery";
+import chaiAsPromised from "chai-as-promised";
 
 import reducers from "../src/reducers";
 
@@ -28,5 +29,6 @@ $.fn.simulate = function(eventName, value) {
 };
 
 chaiJquery(chai, chai.util, $);
+chai.use(chaiAsPromised);
 
 export { renderComponent, expect };
