@@ -1,0 +1,37 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto";
+}
+
+h1, h2, h3, h4, p {	
+	font-weight: 300;
+	margin: 0;
+}
+
+h1 {
+	font-size: 3.125rem;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+svg {
+	max-width: 300px;
+	max-height: 300px;
+}

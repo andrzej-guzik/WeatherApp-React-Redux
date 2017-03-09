@@ -1,65 +1,7 @@
-html, body {
-	height: 100%;
-}
-
-body {
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-.app {
-	background: #16a085;
-	height: 100%;
-	overflow-y: auto;
-}
-
-.site-wrapper {
-	width: 80%;
-	margin: 0 auto;
-}
-
-h1, p {
-	font-family: "Roboto";
-	font-weight: 300;
-	margin: 0;
-}
-
-h1 {
-	font-size: 44px;
-}
-
-ul {
-	margin: 0;
-	padding: 0;
-}
-
-li {
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-	padding: 0;
-}
-
-.google-map {
-	width: 100%;
-	height: 300px;
-	margin-top: 50px;
-}
-
-.weather-charts {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding-bottom: 20px;
-	background: #eeeeee;
-}
-
-svg {
-	max-width: 300px;
-	max-height: 300px;
-}
-
-
-
+@import "style/_global";
+@import "style/modules/_app";
+@import "style/modules/_site-wrapper";
+@import "style/modules/_search-bar";
+@import "style/modules/_weather-list";
+@import "style/modules/_weather";
+@import "style/modules/_google-map";

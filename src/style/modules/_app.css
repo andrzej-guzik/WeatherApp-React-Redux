@@ -1,0 +1,18 @@
+.app {
+	background: #16a085;
+	height: 100%;
+	overflow-y: auto;
+
+	h1, p {
+		color: #f7f8f9;
+		text-align: center;
+	}
+
+	h1 {
+		padding-top: 30px;
+	}
+
+	p {
+		padding-bottom: 30px;
+	}
+}

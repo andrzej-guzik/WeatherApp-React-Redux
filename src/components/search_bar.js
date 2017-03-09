@@ -29,7 +29,7 @@ class SearchBar extends Component {
 		return (
             <form className="search-bar" onSubmit={this.handleSubmit.bind(this)}>
 				<label>
-					Enter a city name <br />
+					Enter city <br/>
 					<input value={this.state.searchText} onChange={this.handleChange.bind(this)} />
 				</label>
 				<button className="btn">Submit</button>

@@ -5,8 +5,8 @@ const average = (data) => {
 	if (data.length !== 0) {
 		const sum = data.reduce((prev, item) => {
 			return prev + item;
-		}, 0); 	
-	
+		}, 0);
+
 		return Math.floor(sum/data.length);
 	}
 };
@@ -15,7 +15,7 @@ const average = (data) => {
 const Weather = props => {
 	const { cityData, label, units, color } = props;
 	return (
-		<div className="sparkline-chart">
+		<div className="weather">
 			<h3>{label} [{units}]</h3>
 			<Sparklines data={cityData} height="150" >
 				<SparklinesLine color={color} />
